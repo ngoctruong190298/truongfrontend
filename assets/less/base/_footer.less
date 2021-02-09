@@ -1,0 +1,103 @@
+@color-text: #777;
+footer {
+	background: #222;
+	.social {
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+		&__img {
+			margin-top: 6.4em;
+			margin-bottom: 0.9em;
+		}
+
+		&__title {
+			width: 55em;
+			.font_popins(14px,400,1.7em,@color-white);
+		}
+
+		&__icon {
+			display: block;
+			font-size: 18px;
+			margin-top: 1.3em;
+			a {
+				line-height: 1.7em;
+    			margin: 0.9em;
+				color: @color-text;
+				i {
+					margin-left: 0.5em;
+				}
+
+			}
+
+		}
+
+	}
+
+	.line-footer {
+		color: #ccc;
+		width: 73.125em;
+		margin: 0px auto;
+		margin-top: 3.2em;
+	}
+
+	.about {
+		width: 73.125em;
+		margin: 0px auto;
+		display: flex;
+		margin-top: 3.9em;
+		.contact {
+			width: 23%;
+			margin-right: 1.9em;
+		}
+
+		.account {
+			width: 23%;
+		}
+
+		.information {
+			width: 23%;
+			margin-left: 1.89em;
+		}
+
+		.link {
+			width: 23%;
+			margin-left: 2em;
+		}
+
+		span {
+			display: block;
+			text-transform: uppercase;
+			.font_popins(18px,700,2.7em,@color-white);
+		}
+
+		ul {
+			margin-left: -2.5em;
+   		    margin-top: 0.4em;
+   		    li a{
+				.font_popins(14px,400,2.9em,@color-text);
+				i {
+					margin-right: 1.5em;
+				}
+
+			}
+
+		}
+
+	}
+
+	.copyright {
+		background: #111;
+		text-align: center;
+    	margin-top: 1.8em;
+    	.font_popins(14px,400,normal,@color-text);
+		p {
+			padding: 1em;
+			margin-left: 0.4em;
+		}
+		
+	}
+
+}

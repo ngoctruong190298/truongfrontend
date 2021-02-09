@@ -1,0 +1,1172 @@
+@media all and (min-width: 320px) and (max-width: 799px){
+	.container {
+		.header {
+			.icon__menu {
+				display: block;				
+				font-size: 14px;
+				margin-top: 2%;
+				padding: 0.5em;
+				margin-left: 25%;
+				color: @color-white;
+			}
+
+			&__menu {				 
+			display: none;
+			  position: fixed; 
+			  z-index: 5;
+			  left: 0;
+			  top: 0;
+			  margin-top: 13%;
+			  width: 100%; 
+			  height: 100%; 
+			  overflow: auto; 
+			  background-color: rgb(0,0,0); 
+			  background-color: rgba(0,0,0,0.4);
+  				ul {
+  					display: flex;
+  					background-color: #fefefe;					  
+				    padding: 0;
+				    border: 1px solid #888;
+				    width: 80%;
+				    margin: 0px auto;
+				    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+				    -webkit-animation-name: animatetop;
+				    -webkit-animation-duration: 0.4s;
+				    animation-name: animatetop;
+				    animation-duration: 0.4s; 				
+  					li {
+  						width: 16%;
+	  					display: inline-block;
+	  					padding: 0;
+	  					margin: 0;
+	  					a {
+	  						display: inline-block;
+	  						color: @color-black;
+	  						font-size: 10px;
+	  						padding: 0.5em;
+	  					}
+
+  					}
+
+  				}
+
+	  			@-webkit-keyframes animatetop {
+				  from {top:-300px; opacity:0} 
+				  to {top:0; opacity:1}
+				}
+
+				@keyframes animatetop {
+				  from {top:-300px; opacity:0}
+				  to {top:0; opacity:1}
+				}
+
+			}	
+
+		}
+
+	}
+
+}
+
+@media all and (min-width: 320px) and (max-width: 1476px){
+	.container {				
+		.header {
+			width: 80%;
+			margin: 0px auto;
+			&__logo {
+				width: 30%;
+				margin-right: 0em;
+				padding: 0.5em 0em;
+				img {
+					max-width: 100%;
+					width: auto;
+				}
+
+			}
+
+			&__icon {
+				margin-top: -0.4em;
+				&__search {
+					margin-left: 0em;
+				}  
+
+				a i {
+					padding: 0.5em;   			
+					font-size: 10px;
+					margin-left: 0em;
+					margin-top: 1.5em;
+				}
+
+			}
+			
+			&__icon span {
+				margin-left: 0em;			
+				font-weight: 400; 
+			}
+
+		}
+
+	}
+	
+	.banner {
+		margin-top: 0em;
+		&__text {
+			width: 50%;
+			left: 10%;
+			top: 0%;
+			margin-top: 25%;
+			&__logo {
+				font-size: 16px;				
+			}
+
+			&__slogan {
+				font-size: 14px;				
+			}
+
+			p {
+				display: none;				
+			}
+
+			a {
+				font-size: 10px;
+				padding: 0.3em;
+				margin-left: 0;
+			}
+
+		}
+
+	}
+
+	.section {		
+		width: 80%;
+		margin: 0px auto;
+		margin-top: -1em;
+		.category-product{
+			.category__img {
+				img {
+					max-width: 100%;
+					width: auto;
+				}
+
+				&:nth-child(5) {
+					margin-top: -0.5em;
+				}
+
+			}
+
+			.category__icon {
+				&:nth-child(4) {
+					margin-top: -0.5em;					
+				}
+
+				&:nth-child(6) {
+					margin-top: -0.5em;
+				}
+
+				img {
+					width: 20%;
+					padding: 0em;
+					margin-top: 0.5em;					
+				}
+
+				span {
+					font-size: 7px;
+					display: block;
+				}
+
+				p {
+					display: none;
+				}
+
+			}
+
+		}
+
+		.tab {
+			margin-top: 3em;
+			&__title a {
+				font-size: 9px;
+			}
+
+			hr {
+				margin-top: 0.5em;
+			}
+
+		}
+
+		.list-product {
+			margin-top: 1.5em;
+			@-webkit-keyframes product {
+			    0% {
+				    -webkit-transform: translateY(-0.5em);
+				    transform: translateY(-0.5em);
+			    }
+
+			    50% {
+				    -webkit-transform: translateY(-0.5em);
+				    transform: translateY(-0.5em);
+			    }
+
+			    100% {
+				    -webkit-transform: translateY(-0.5em);
+				    transform: translateY(-0.5em);
+			    }
+
+			}
+
+			@keyframes product {
+			    0% {
+				    -webkit-transform: translateY(-0.5em);
+				    transform: translateY(-0.5em);
+			    }
+
+			    50% {
+				    -webkit-transform: translateY(-0.5em);
+				    transform: translateY(-0.5em);
+			    }
+
+			    100% {
+				    -webkit-transform: translateY(-0.5em);
+				    transform: translateY(-0.5em);
+			    }
+
+			}
+
+			@-webkit-keyframes product-float {
+			    100% {
+				    -webkit-transform: translateY(-0.5em);
+				    transform: translateY(-0.5em);
+			    }
+			}
+
+			@keyframes product-float {
+			    100% {
+				    -webkit-transform: translateY(-0.5em);
+				    transform: translateY(-0.5em);
+			    }
+
+			}
+
+			@-webkit-keyframes product-bottom {
+			    0% {
+				    -webkit-transform: translateY(0.5em);
+				    transform: translateY(0.5em);
+			    }
+
+			    50% {
+				    -webkit-transform: translateY(0.5em);
+				    transform: translateY(0.5em);
+			    }
+
+			    100% {
+				    -webkit-transform: translateY(0.5em);
+				    transform: translateY(0.5em);
+			    }
+
+			}
+
+			@keyframes product-bottom {
+			    0% {
+				    -webkit-transform: translateY(0.5em);
+				    transform: translateY(0.5em);
+			    }
+
+			    50% {
+				    -webkit-transform: translateY(0.5em);
+				    transform: translateY(0.5em);
+			    }
+
+			    100% {
+				    -webkit-transform: translateY(0.5em);
+				    transform: translateY(0.5em);
+			    }
+
+			}
+			
+			@-webkit-keyframes product-float-bottom {
+			    100% {
+				    -webkit-transform: translateY(0.5em);
+				    transform: translateY(0.5em);
+			    }
+
+			}
+
+			@keyframes product-float-bottom {
+			    100% {
+				    -webkit-transform: translateY(0.5em);
+				    transform: translateY(0.5em);
+			    }
+
+			}
+
+			.product:nth-child(1):hover, .product:nth-child(2):hover{ 			 
+			    -webkit-animation-name: product-float, product;
+			    animation-name: product-float, product;
+			    -webkit-animation-duration: .3s, 20s;
+			    animation-duration: .3s, 20s;		  
+			}
+
+			.product:nth-child(3):hover, .product:nth-child(4):hover,
+			.product:nth-child(5):hover, .product:nth-child(6):hover, 
+			.product:nth-child(7):hover, .product:nth-child(8):hover{
+			    -webkit-animation-name: product-float-bottom, product-bottom;
+			    animation-name: product-float-bottom, product-bottom;
+			    -webkit-animation-duration: .3s, 20s;
+			    animation-duration: .3s, 20s;			  
+			}
+
+			.product {
+				width: 45%;
+				margin-right: 0em;
+				margin-bottom: 1.5em;
+				&:nth-child(1) {
+					margin-bottom: 1em;
+				}
+
+				&:nth-child(2n) {
+					margin-left: 10%;
+				}
+
+
+				img {
+					max-width: 100%;
+					width: auto;
+				}
+
+				&__title {
+					font-size: 8px;
+					margin: 0em 1.5em;
+				}
+
+				&__price {
+					font-size: 8px;
+					margin: 0em 1.5em 1em;
+				}
+
+				&__icon {
+					a {
+						padding: 0.05em 0.1em;
+						
+						margin: 0.1em 0.3em 0.05em;
+						i {
+							font-size: 10px;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	.space-white {
+		height: 7em;
+		margin-top: -6em;
+	}
+
+	
+	.client {
+		strong {
+			font-size: 18px;
+			margin-top: 2em;
+			margin-bottom: 0.5em;
+		}
+
+		&__avatar {
+			img {
+				width: 10%;
+			}
+
+		}
+
+		&__content {
+			font-size: 10px;
+			width: 100%;
+		}
+
+		&__name {
+			font-size: 10px;
+			margin-top: 0em;
+		}
+
+		&__feel {
+			font-size: 8px;
+		}
+
+		.icon {
+			font-size: 6px;
+			margin-top: 0em;
+		}
+
+	}
+
+	
+
+	.line {
+		width: 80%;
+		margin: 0px auto;
+		margin-top: 1em;
+	}
+
+	.list-brand {
+		width: 80%;
+		margin: 0px auto;
+		.brand {
+			margin-right: 0;
+			img {
+				max-width: 100%;
+				width: auto;
+			}
+
+		}
+			
+	}
+
+	.space-x {
+		height: 0.5em;
+	}
+
+	footer {
+		.social {
+			&__img {
+				margin-top: 2em;
+				img {
+					width: 50%;
+				}
+
+			}
+
+			&__title {
+				font-size: 7px;
+				width: 80%;
+			}
+
+			&__icon {
+				margin-top: 0;
+				font-size: 7px;
+				a {
+					margin: 0;
+				}
+
+			}
+
+		}
+
+		.line-footer {
+			width: 80%;
+			margin: 0px auto;
+			margin-top: 1em;
+		}
+
+		.about {
+			width: 80%;
+			margin: 0px auto;
+			margin-top: 1em;
+			.contact {
+				width: 45%;
+				margin-right: 0.2em;
+			}
+
+			.account {
+				width: 15%;
+			}
+
+			.information {
+				width: 20%;
+				margin-left: 0em;
+			}
+
+			.link {
+				width: 20%;
+				margin-left: 0em;
+			}
+
+			span {
+				font-size: 7px;
+				line-height: 0;
+			}
+
+			ul {
+				li a {
+					font-size: 6px;
+					line-height: 0;
+					i {
+						margin-right: 0.5em;
+					}
+
+				}
+
+			}
+
+		}
+
+		.copyright {
+			margin-top: 0;
+			p {
+				font-size: 6px;
+				padding: 0.5em;
+			}
+
+		}
+
+	}
+
+}	
+
+ @media all and (min-width: 568px) and (max-width: 1476px) {
+ 	.container {
+ 		.header {
+ 			.icon__menu {
+ 				margin-left: 45%;
+ 				margin-top: 3%;
+ 			}
+
+ 			&__menu ul li a {
+ 				font-size: 14px;
+ 			}
+ 			&__icon {
+ 				margin-top: 0.6%;
+ 			}
+
+ 		}
+
+ 	}
+
+ 	.banner {
+		&__text {
+			&__logo {
+				font-size: 30px;
+			}
+
+			&__slogan {
+				font-size: 20px;
+			}
+
+		}
+
+		a {
+			font-size: 12px;
+		}
+
+	}
+	.section {
+		margin-top: -1.6em;
+		.category-product {
+			.category__icon {
+				img {
+					margin-top: 1em;
+				}
+
+				span {
+					font-size: 10px;
+				}
+
+				&:nth-child(4) {
+    				img {
+    					margin-top: 2em;
+    				}
+
+				}
+
+			}
+
+		}
+
+		.tab {
+			
+			&__title a {
+				font-size: 12px;
+			}
+
+			hr {
+    			margin-top: 0.7em;
+			}
+
+		}
+
+		.list-product {
+			margin-top: 2em;
+			.product {							
+				&__title {
+					font-size: 10px;
+					margin: 0em 4em;
+				}
+
+				&__price {
+					font-size: 10px;
+					margin: 0em 4em 1em;
+				}
+
+				&__icon {
+					a {
+						padding: 0.3em;
+						
+						margin: 0.7em 0.7em 0em;
+						i {
+							font-size: 14px;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	
+
+	.client {
+		strong {
+			font-size: 20px;
+		}
+
+		&__feel {
+			font-size: 10px;
+		}
+
+		&__avatar {
+			img {
+				width: 6%;
+			}
+
+		}
+
+	}
+
+
+	footer {
+		.social {
+			&__title {
+				font-size: 9px;
+			}
+
+			&__icon {
+				font-size: 9px;
+			}
+
+		}
+
+		.about {
+			span {
+				font-size: 10px;
+			}
+
+			.contact {
+			width: 25%;			
+			}
+
+			.account {
+				width: 25%;
+			}
+
+			.information {
+				width: 25%;				
+			}
+
+			.link {
+				width: 25%;				
+			}
+
+		}
+
+		.copyright {
+			font-size: 14px;
+		}
+
+	}
+
+ }
+
+@media all and (min-width: 800px) and (max-width: 1476px){
+	.container {
+		.header {
+			&__logo {
+				width: 20%;
+				margin-top: 0.5%;
+			}
+
+			.icon__menu {
+				display: none;
+			}
+
+			&__menu {
+				display: block;
+				ul {
+					padding: 0;
+    				margin-left: 1em;
+					li {
+						margin-right: 0.5em;
+						a{
+						padding: 0em 0.25em;
+						}
+
+					}
+
+				}
+
+			}
+
+			&__icon {
+				margin-left: 0%;
+			}
+
+		}
+
+	}
+	.banner {
+		&__text {
+			margin-top: 20%;
+			&__logo {
+				font-size: 32px;
+			}
+
+			&__slogan {
+				font-size: 24px;
+			}
+
+			p {
+				display: block;
+				font-size: 12px;
+    			margin-top: 0em;
+    			margin-bottom: 1em;
+			}
+
+			a {
+				padding: 0.5em 1em;
+			}
+
+		}
+
+	}
+
+	.section {
+		margin-top: -2.4em;
+		.category-product {
+			.category__icon {
+				img {
+					margin-top: 0.5em;
+				}
+
+				p {
+					display: block;
+					font-size: 8px;
+				}
+
+				&:nth-child(4) img {
+   					margin-top: 2em;
+   				}
+
+			}
+
+		}
+
+		.tab {
+			&__title a {
+				font-size: 14px;
+			}
+
+			hr {
+			margin-top: 0.8em;
+			}
+
+		}
+
+		.list-product {
+			margin-top: 3em;
+			.product {
+				margin-bottom: 1.5em;
+				&:nth-child(1) {
+					margin-bottom: 1.5em;
+				}
+
+				&__title {
+					font-size: 14px;
+				}
+
+				&__price {
+					font-size: 14px;
+				}
+
+				&__icon {
+					a {
+
+					    padding: 0;
+					    margin: 1.2em 2em 0.1em;
+						i{
+							padding: 0.4em;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	
+
+	.client {
+		strong {
+			font-size: 24px;
+		}
+
+		p {
+			font-size: 12px;
+		}
+
+		&__name {
+			font-size: 14px;
+		}
+
+	}
+
+	
+
+	footer {
+		.social {
+			&__title {
+				font-size: 12px;
+			}
+
+			&__icon {
+				font-size: 10px;
+			}
+
+		}
+
+		.about {
+			margin-top: 2em;
+			span {
+				font-size: 12px;
+			}
+
+			ul li a {
+				font-size:8px; 
+			}
+
+		}
+
+		.copyright p {
+			font-size: 10px;
+		}
+
+	}
+
+}
+
+@media all and (min-width: 1024px) and (max-width: 1476px){
+	.container {
+		.header {
+			&__menu {
+				margin-left: 3%;
+			    margin-top: 1%;			
+			}
+
+			&__icon {
+				margin-left: 1%;
+    			margin-top: 1.5%;
+			}
+			&__menu ul li {
+				margin-right: 1.65em;
+			}
+
+		}
+
+	}
+
+	.banner {
+		margin-top: -6.7%;
+		&__text {
+			margin-top: 14%;
+		}
+
+	}
+
+	.section {		
+		.category-product {
+			.category__icon {
+				span {
+					font-size: 14px;
+				}
+
+				p {
+					font-size: 10px;
+				}
+
+			}
+
+		}
+
+		.tab{
+			&__title a {
+				font-size: 16px;
+			}
+
+			hr {
+				margin-top: 1em;
+			}
+
+		}
+
+		.list-product {
+			margin-top: 2.5em;
+			.product:nth-child(1):hover, .product:nth-child(2):hover,
+			.product:nth-child(3):hover, .product:nth-child(4):hover{ 			 
+			    -webkit-animation-name: product-float, product;
+			    animation-name: product-float, product;
+			    -webkit-animation-duration: .3s, 20s;
+			    animation-duration: .3s, 20s;		  
+			}
+			
+			.product:nth-child(5):hover, .product:nth-child(6):hover, 
+			.product:nth-child(7):hover, .product:nth-child(8):hover{
+			    -webkit-animation-name: product-float-bottom, product-bottom;
+			    animation-name: product-float-bottom, product-bottom;
+			    -webkit-animation-duration: .3s, 20s;
+			     animation-duration: .3s, 20s;			  
+			}	
+
+			.product {
+				width: 23%;
+				margin-right: 2%;
+				margin-bottom: 0em;
+				&:nth-child(1) {
+					margin-bottom: 0em;
+				}
+
+				&:nth-child(2n) {
+					margin-left: 1%;
+				}				
+
+				&__title {
+					font-size: 10px;
+					margin: 0em 2.5em;
+				}
+
+				&__price {
+					font-size: 10px;
+					margin: 0em 2.5em 3em;
+				}
+
+				&__icon {
+					a {
+						padding: 0;
+						
+						margin: 0.5em 0.5em 0em;
+						i {
+							padding: 0.7em;
+							font-size: 10px;
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+	}
+
+	.space-white {
+		height: 13em;
+	}
+
+
+	.client {
+		strong {
+			font-size: 30px;
+		}
+
+		span {
+			font-size: 16px;
+		}
+
+		p {
+			font-size: 14px;
+		}
+
+		&__avatar {
+			img {
+				width: 5%;
+			}
+
+		}
+
+		.dot {
+			font-size: 6px;
+		}
+
+	}
+
+
+	footer {
+		.about {
+			ul li a {
+				font-size: 10px;
+			}
+
+		}
+
+	}
+
+}
+
+@media all and (min-width: 1330px) and (max-width: 1476px) {
+	.container {
+		.header {
+			&__menu  {	
+			margin-top: 0;	
+				ul li {
+					margin-right: 1.4em;
+					a{
+						padding: 0.5em 1em;  				
+					}
+
+				}				
+
+			}
+
+			&__icon {
+				margin-left: 8.8%;
+    			margin-top: 0.7%;
+    			a {
+    				font-size: 20px;
+    				i {
+    					font-size: 12px;
+    				}
+
+    			}
+
+			}
+
+		}
+	
+	}
+
+	.banner {
+		margin-top: -5em;
+		&__text {
+			&__logo {
+				font-size: 50px;
+			}
+
+			&__slogan {
+				font-size: 40px;
+			}
+
+			p {
+				font-size: 18px;
+			}
+
+			a {
+				font-size: 18px;
+			}
+
+		}
+
+	}
+
+	.section {
+		margin-top: -3.3em;
+		.category-product {
+			.category__icon {
+				span {
+					font-size: 16px;
+				}
+
+				p {
+					font-size: 12px;
+				}
+
+			}
+
+		}
+
+		.tab {
+			&__title a {
+				font-size: 18px;
+			}
+
+		}
+
+		.list-product {
+			.product {
+				&__title {
+					font-size: 14px;
+				}
+
+				&__price {
+					font-size: 14px;
+				}
+
+			}
+
+		}
+
+	}
+
+
+	.client {
+		strong {
+			font-size: 36px;
+		}
+
+		p {
+			font-size: 18px;
+		}
+
+		&__name {
+			font-size: 18px;
+		}
+
+	}
+
+	footer {
+		.social {
+			&__title {
+				font-size: 14px;
+			}
+
+			&__icon {
+				font-size: 18px;
+			}
+
+		}
+
+		.about {
+			span {
+				font-size: 18px;
+				margin-top: 0.5em;
+				margin-bottom: 1em;
+			}
+
+			ul li a {
+				font-size: 14px;
+				line-height: 2em;
+			}
+
+		}
+
+	}
+	
+}
+
+@media all and (min-width: 1471px) and (max-width: 1600px){
+	.banner {
+		&__text {
+		left: 12%;
+    	top: 25%;
+		}
+
+	}
+}
+

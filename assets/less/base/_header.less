@@ -1,0 +1,130 @@
+@color-white: #fff;
+@color-black: #000;
+.font_popins(@size,@weight,@line,@color){
+    font-family: 'Poppins';
+    font-size: @size;
+    line-height: @line;
+    color: @color;
+    font-weight: @weight;
+}
+
+#wrap {
+	width: 100%;
+	height: auto;	
+}
+
+.container {
+	background: #0f1515;	
+	position: relative;
+	z-index: 2;
+	opacity: 0.8;
+	.header{
+		width: 73.125em;
+		margin: 0px auto;
+		display:flex;
+		overflow: hidden;
+		&__logo {
+			padding: 1.3em 0em;
+		    margin-right: 1.6em;
+		    margin-top: 0.17em;
+		}
+
+		.icon__menu {
+			display: none;
+		}
+
+		&__menu ul li {		
+			display: inline-block;
+			a{
+				padding: 1.2em 1.5em;
+				display: block;
+				margin-top: 0.25em;
+				.font_popins(16px,400,1.75em,@color-white);
+			}
+
+			a:hover, a:focus {
+				-webkit-transform: scale(1.2);
+  				transform: scale(1.2);
+			}
+
+		}
+
+		&__icon {
+			&__search {
+				margin-left: 5.8em;
+			}
+
+			a i {
+    			margin-top: 2.8em;
+				color: @color-white;
+				margin-left: 1em;
+			}
+			
+			a:hover .icon, a:focus.icon {
+				-webkit-transform: scale(1.3) rotate(5deg);
+  				transform: scale(1.3) rotate(5deg);
+			}
+
+		}
+		
+		&__icon span {
+			margin-left: 1.69em;
+			color: @color-text;
+			font-weight: 400; 
+		}
+
+	}  
+
+}
+
+.banner {
+	margin-top: -6.38em;
+	img{
+	max-width: 100%;
+	width: auto;	
+	z-index: 1;
+	}
+
+	&__text {
+		position: absolute;
+		width: 33.25em;
+		left: 23.2em;
+		top: 18.4em;
+		z-index: 3;
+		&__logo {
+			.font_popins(60px,700,normal,@color-white);
+		}
+
+		&__slogan {
+		    margin-top: -0.19em;
+		    margin-bottom: 0.48em;
+		    display: block;
+		    .font_popins(40px,700,normal,@color-white);
+		}
+
+		p {
+			margin-bottom: 5em;
+			margin-left: 0.2em;
+			.font_popins(14px,400,1.71em,@color-white);
+		}
+
+		a {
+			width: 12.14em;		
+			padding: 1.08em 3.29em 1em;
+			text-align: center;
+			border: 1px solid @color-white;
+			text-transform: uppercase;
+			margin-left: 0.3em;
+			.font_popins(14px,400,1.71em,@color-white);
+		}
+
+		a:hover {
+			background-color: @color-icon;
+			border: none;
+			border-radius: 2%;
+
+		}
+		
+	}
+
+}
