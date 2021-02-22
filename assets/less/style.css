@@ -85,6 +85,7 @@ li {
 }
 .banner {
   margin-top: -6.38em;
+  position: relative;
 }
 .banner img {
   max-width: 100%;
@@ -144,6 +145,7 @@ li {
 }
 footer {
   background: #222;
+  margin-bottom: -14px;
 }
 footer .social {
   text-align: center;
@@ -405,24 +407,6 @@ footer .copyright p {
     -webkit-transform: translateY(2em);
     transform: translateY(2em);
   }
-}
-.section .list-product .product:nth-child(1):hover,
-.section .list-product .product:nth-child(2):hover,
-.section .list-product .product:nth-child(3):hover,
-.section .list-product .product:nth-child(4):hover {
-  -webkit-animation-name: product-float, product;
-  animation-name: product-float, product;
-  -webkit-animation-duration: .3s, 20s;
-  animation-duration: .3s, 20s;
-}
-.section .list-product .product:nth-child(5):hover,
-.section .list-product .product:nth-child(6):hover,
-.section .list-product .product:nth-child(7):hover,
-.section .list-product .product:nth-child(8):hover {
-  -webkit-animation-name: product-float-bottom, product-bottom;
-  animation-name: product-float-bottom, product-bottom;
-  -webkit-animation-duration: .3s, 20s;
-  animation-duration: .3s, 20s;
 }
 .section .list-product .product {
   position: relative;
@@ -699,7 +683,7 @@ footer .copyright p {
     width: 55%;
     left: 15px;
     top: 0%;
-    margin-top: 22%;
+    margin-top:6%;
   }
   .banner__text__logo {
     font-size: 18px;
@@ -843,24 +827,6 @@ footer .copyright p {
       transform: translateY(0.5em);
     }
   }
-  .section .list-product .product:nth-child(1):hover,
-  .section .list-product .product:nth-child(2):hover {
-    -webkit-animation-name: product-float, product;
-    animation-name: product-float, product;
-    -webkit-animation-duration: .3s, 20s;
-    animation-duration: .3s, 20s;
-  }
-  .section .list-product .product:nth-child(3):hover,
-  .section .list-product .product:nth-child(4):hover,
-  .section .list-product .product:nth-child(5):hover,
-  .section .list-product .product:nth-child(6):hover,
-  .section .list-product .product:nth-child(7):hover,
-  .section .list-product .product:nth-child(8):hover {
-    -webkit-animation-name: product-float-bottom, product-bottom;
-    animation-name: product-float-bottom, product-bottom;
-    -webkit-animation-duration: .3s, 20s;
-    animation-duration: .3s, 20s;
-  }
   .section .list-product .product {
     width: 45%;
     margin-right: 0em;
@@ -995,7 +961,7 @@ footer .copyright p {
   }
   footer .copyright p {
     font-size: 14px;
-    padding: 0.5em;
+    padding: 1.5em;
   }
 }
 @media all and (min-width: 568px) and (max-width: 1439px) {
@@ -1270,24 +1236,6 @@ footer .copyright p {
   }
   .section .list-product {
     margin-top: 2.5em;
-  }
-  .section .list-product .product:nth-child(1):hover,
-  .section .list-product .product:nth-child(2):hover,
-  .section .list-product .product:nth-child(3):hover,
-  .section .list-product .product:nth-child(4):hover {
-    -webkit-animation-name: product-float, product;
-    animation-name: product-float, product;
-    -webkit-animation-duration: .3s, 20s;
-    animation-duration: .3s, 20s;
-  }
-  .section .list-product .product:nth-child(5):hover,
-  .section .list-product .product:nth-child(6):hover,
-  .section .list-product .product:nth-child(7):hover,
-  .section .list-product .product:nth-child(8):hover {
-    -webkit-animation-name: product-float-bottom, product-bottom;
-    animation-name: product-float-bottom, product-bottom;
-    -webkit-animation-duration: .3s, 20s;
-    animation-duration: .3s, 20s;
   }
   .section .list-product .product {
     width: 23%;
